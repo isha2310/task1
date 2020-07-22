@@ -1,0 +1,33 @@
+.container{
+    height: 100vh;
+    margin: 0;
+    background-color: #13172b;
+}
+.home{
+    height: 40vh;
+    width: 30vw;
+    
+    margin-left: 35%;
+    margin-top: 11%;
+    position: absolute;
+    padding: 3%;
+    background: linear-gradient(0deg, #13172b, #3e414d );
+    align-items: center;
+    box-shadow: 2px 2px 40px 15px #0ff;
+}
+
+.home-input{
+    margin: 10px;
+    margin-left: 55px;
+    width: 250px;
+    height: 40px;
+}
+.btn{
+    background-color: #000000;
+    color: white;
+    border: none;
+    margin: 10px;
+    margin-left: 55px;
+    width: 250px;
+    height: 40px;
+}
