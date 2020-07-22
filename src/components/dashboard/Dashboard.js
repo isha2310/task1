@@ -21,7 +21,7 @@ const Dashboard = () => {
     return (
         <div className="dashboard" >
             <Layout style={{backgroundColor: '#262626'}} className="dashboard2">
-                <Header style={{ backgroundColor: '141414', position: 'fixed', zIndex: 1, width: '100%' }}>
+                <Header style={{ backgroundColor: '141414', position: 'fixed', display:'flex',zIndex: 1, width: '100%' }}>
                     <input placeholder="Enter breed" onChange={handleChange} className="dash-input" />
                 </Header>
                 <Content className="site-layout" >
